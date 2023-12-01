@@ -24,3 +24,5 @@ if uploaded_file is not None:
     st.write("Detected Objects:")
     st.json(results.xyxy[0].numpy().tolist())
 
+if __name__ == "__main__":
+    run()
